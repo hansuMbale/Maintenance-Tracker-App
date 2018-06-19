@@ -12,10 +12,10 @@
 }
 
 button:hover {
-    opacity: 0.8;
+    opacity:0.8;
 }
 body {
-    background-color: #BDB76B;
+    background-color:#BDB76B;
 }
             </style>
                 <title>Maintainance Tracker</title><br>
