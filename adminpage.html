@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+    <script>
+        function myFunction() {
+
+            var input, filter, table, tr, td, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }</script>
+
+</head>
+
+<body>
+<center>
+    <p class="users">View all requests entered by users</p>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for requests..">
+    <div>
+        <label class="admin" for="name">Name</label>
+        <label class="admin" for="email">Email</label>
+        <label class="admin" for="computer">Computer ID</label>
+        <label class="admin" for="department">Department</label>
+        <label class="admin" for="requets">Request</label>
+        <label class="admin" for="approve">Approve</label>
+        <label class="admin" for="reject">Reject </label>
+        <label  class="admin"for="resolve">Resolve</label>
+    </div>
+    <div class="admin">
+        <output class="admin" id="name">
+        <output class="admin" id="email">
+        <output class="admin" id="computer">
+        <output class="admin" id="department">
+        <output class="admin" id="requets">
+        <output class="admin" type="checkbox" id="approve">
+        <output class="admin" type="checkbox" id="reject">
+        <output class="admin" type="checkbox" id="resolve">
+    </div>
+</body>
+</center>
+</html>
