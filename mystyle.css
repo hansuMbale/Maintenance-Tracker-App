@@ -42,6 +42,7 @@ label.sign{
 }
 table.sign{
     font-size: 150%;
+    
 }
 table.user{
     border-spacing: 15px;
@@ -51,6 +52,15 @@ textarea.edit{
    width: 65%;
    padding: 40px;   
 }
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; }
+
 button.user{
     background-color: #4CAF50;
     color: white;
