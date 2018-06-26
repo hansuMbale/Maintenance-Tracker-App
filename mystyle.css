@@ -1,148 +1,63 @@
-
-  button {
+body{
+    padding-top: 50px;
+    background: #BDB76B;
+    
+}
+button.first{
+    
       background-color: #4CAF50;
       color: white;
+      font-size: 150%;
       margin: 8px 0;
       border: none;
       cursor: pointer;
       padding: 7px 40px;
-      width: 20%
-  }
-  
-  button:hover {
-      opacity: 0.8;
-  }
-  body {
-    background-color: #BDB76B;
+      width: 15%;
+      
+      
 }
-
-  label.users{
-      width: 100%;
-      padding: 20px;
-  }
-  input.users{
-    padding: 20px;
-  }
-  p.users{
-      padding-top: 50px;
-      font-size: 150%;
-  }
-  label.admin{
-    width: 100%;
-    padding: 20px;
-    font-size: 120%;
+button.first:hover{
+    opacity: 0.8;
 }
-input.admin{
-  padding: 20px;
-}
-p.admin{
-    padding-top: 50px;
+label.first{
     font-size: 150%;
-}
-  
-
-  #myInput {
-    background-image: url('/css/searchicon.png'); 
-    background-position: 10px 12px; 
-    background-repeat: no-repeat; 
-    font-size: 16px; 
-    padding: 12px 20px 12px 40px; 
-    border: 1px solid #ddd; 
-    margin-bottom: 12px;
-     
-}
-
-div.firstscreen{
-    width: 50%;
-  
-}
-button.firstscreen{
-    padding: 10px;
-}
-h1{
-    padding-top: 50px;
-}
-input.login{
-    padding: 7px 50px;
-}
-button.login{
-    padding: 10px;
-    width: 35%;
-    font-size: 100%;
-}
-label.login{
-    color: cornflowerblue;
-    font-size: 150%;
-
-}
-label.log{
-    font-size: 150%;
-    width: 10%;
-}
-p.signup{
-    font-size: 150%;
-}
-label.signup{
-    font-size: 120%;
-    width: 20%;
-}
-input.signup{
-    padding: 2px 5px;
-}
-button.signup{
-    padding: 10px;
-    width: 15%;
-    font-size: 100%; 
-}
-label.users{
-    width: 50%;
-}
-input.users{
-    padding: 2px 20px;
-}
-p.form{
-    font-size: 150%; 
-}
-label.form{
-    font-size: 120%;
-    width: 23%;
-}
-input.form{
-    padding: 2px 20px;
-}
-output .form{
-    padding: 2px 20px;
-}
-button.form{
-    padding: 10px;
-    width: 16%;
-    font-size: 100%; 
-}
-textarea.form {
-    width: 75%;
-    height: 150px;
-    padding: 2px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-}
-p.maintain{
-    font-size: 150%; 
-}
-label.maintain{
-    font-size: 120%;
-    width: 70%;
-}
-button.maintain{
-    padding: 2px 40px;
-    width: 25%;
-    font-size: 100%; 
-}
-output.maintain{
-    padding: 2px 20px;
-}
-
-
     
+}
+input.first{
+    padding: 7px 30px;
+}
+tr.user{
+    font-size: 150%;
+  
+}
+table.user{
+    border-spacing: 10;
+        
+}
+input.sign{
+    padding: 7px 30px;
+}
+label.sign{
+    text-align: top;
+}
+table.sign{
+    font-size: 150%;
+}
+table.user{
+    border-spacing: 15px;
+}
+
+textarea.edit{
+   width: 65%;
+   padding: 40px;   
+}
+button.user{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 150%;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    padding: 7px 40px;
+    width: 25%;
+}

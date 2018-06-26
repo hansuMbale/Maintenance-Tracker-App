@@ -1,36 +1,81 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>userpage</title>
 </head>
 <center>
-<body>
-        <p class="users">View your requests</p>
-    <div>
-        <label class="users" for="name">Name</label>
-        <label class="users" for="email">Email</label>
-        <label class="users" for="computer">Computer ID</label>
-        <label class="users" for="department">Department</label>
-        <label class="users" for="requets">Request</label>
-        <label class="users" for="approve">Approved</label>
-        <label class="users" for="reject">Rejected </label>
-        <label class="users" for="resolve">Resolved</label>
-    </div>
-    <div>
-        <output class="users" id="name">
-        <output class="users" id="email">
-        <output class="users" id="computer">
-        <output class="users" id="department">
-        <output class="users" id="requet">
-        <output class="users" type="checkbox" id="approve">
-        <output class="users" type="checkbox" id="reject">
-        <output class="users" type="checkbox" id="resolve">
-    </div><br>
-    <br>
-    <div>
+
+    <body>
+        <h1>Your requests</h1>
+        <div>
+            <table class="user">
+                <tr class="user">
+                    <td>
+                        <label>Name</label>
+                    </td>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <label>Compuetr ID</label>
+                    </td>
+                    <td>
+                        <label>Department</label>
+                    </td>
+                    <td>
+                        <label>Description</label>
+                    </td>
+                    <td>
+                        <label>Arroved</label>
+                    </td>
+                    <td>
+                        <label>Rejected</label>
+                    </td>
+                    <td>
+                        <label>Resolved</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="user-edit-form.html>"><output>Nazirini Siraji</output></a>
+                    </td>
+                    <td>
+                        <output>nazirinisiarji@gmail.com</output>
+                    </td>
+                    <td>
+                        <output> AA769</output>
+                    </td>
+                    <td>
+                        <output>Human Resource</output>
+                    </td>
+                    <td>
+                        <output>Keyboard </output>
+                    </td>
+                    <td>
+                        <input type="checkbox"></output>
+                    </td>
+                    <td>
+                        <input type="checkbox" ></output>
+                    </td>
+                    <td>
+                        <input type="checkbox" checked></output>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+
+        <div class="user">
             <a href="requestform.html">
-                    <button class="firstscreen">Enter a request</button>
-    </div>
-</body>
+                <button class="user">Enter your request
+                </button>
+            </a>
+
+        </div>
+    </body>
 </center>
+
 </html>
