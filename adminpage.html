@@ -1,37 +1,77 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>userpage</title>
-</head>
-<center>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type ="text/javascript" src="javafile.js"></script>
 
-    <body>
-        <h1>List of requests</h1>
-        <div>
-            <table class="user">
-                <tr class="user"><td><label>Name</label></td>
-                    <td><label>Email</label></td>
-                    <td><label>Compuetr ID</label></td>
-                    <td><label>Department</label></td>
-                    <td><label>Description</label></td>
-                    <td><label>Arrove</label></td>
-                    <td><label>Reject</label></td>
-                    <td><label>Resolve</label></td></tr>
-                    <tr><td><a href="adminmaintain.html"><output>Nazirini Siraji</output></a></td>
-                        <td><output>nazirinisiarji@gmail.com</output></td>
-                        <td><output> AA769</output></td>
-                        <td><output>Human Resource</output></td>
-                        <td><output>Keyboard </output></td>
-                        <td><output  type="checkbox"></output>
-                            </td>
-                        <td><output  type="checkbox"></output></td>
-                        <td><output  type="checkbox"></output></td></tr>
-            </table>
-        </div><br>
-        <br>
-    </body>
-</center>
+</head> 
+
+<body>
+    <center>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for requests...">
+
+        <table id="myTable">
+            <tr class="header">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Computer ID</th>
+                <th>Department</th>
+                <th>Description</th>
+                <th>Approve</th>
+                <th>Reject</th>
+                <th>Resolve</th>
+
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="adminmaintainance.html">Nazirini Siraji</a>
+                </td>
+                <td>nazi@gmail.com</td>
+                <td>0704736849</td>
+                <td>AAf78</td>
+                <td>Team Lead</td>
+                <td>Keyboard</td>
+                <td>
+                    <input type="checkbox" checked>
+                </td>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a href="adminmaintainance.html">TD Anne</a>
+                </td>
+                <td>
+                    anne@gmail.com
+                </td>
+                <td>075342578</td>
+                <td>WU74n</td>
+                <td>HR Coordinator</td>
+                <td>Screen</td>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <input type="checkbox" checked>
+                </td>
+            </tr>
+
+
+
+        </table>
+
+    </center>
+</body>
 
 </html>

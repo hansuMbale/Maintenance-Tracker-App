@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
-
+s
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <title>Signup</title>
 </head>
 <center>
 
     <body>
-        <h1>Request entered</h1>
+        <h1>View your request</h1>
         <div class="sign">
             <table class="sign">
+                <tr>
+                    <td>
+                        <label class="sign" for="status">Status</label>
+                    </td>
+                    <td>
+                        <input type="text" id="status" class="sign" text="Resolved">
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <label class="sign" for="name">Full Name</label>
                     </td>
                     <td>
-                        <output type="text" id="name" class="sign">
+                        <input type="text" id="name" class="sign" text="Nazirini Siraji">
                     </td>
                 </tr>
                 <tr>
@@ -24,7 +32,7 @@
                         <label class="sign" for="email">Email</label>
                     </td>
                     <td>
-                        <output type="text" id="email" class="sign">
+                        <input type="text" id="email" class="sign" text="nazirinisiraji@gmail.com">
                     </td>
                 </tr>
                 <tr>
@@ -32,7 +40,7 @@
                         <label class="sign" for="phn">Phone</label>
                     </td>
                     <td>
-                        <output type="text" id="phn" class="sign">
+                        <input type="text" id="phn" class="sign" text="0704747184">
                     </td>
                 </tr>
                 <tr>
@@ -40,7 +48,7 @@
                         <label class="sign" for="dpt">Department</label>
                     </td>
                     <td>
-                        <output type="text" id="dpt" class="sign">
+                        <input type="text" id="dpt" class="sign" text="Humaon Resource">
                     </td>
                 </tr>
                 <tr>
@@ -48,7 +56,7 @@
                         <label class="sign" for="comp">Computer ID</label>
                     </td>
                     <td>
-                        <output type="text" id="comp" class="sign">
+                        <input type="text" id="comp" class="sign" text="AA5647">
                     </td>
                 </tr>
                 <tr>
@@ -56,26 +64,22 @@
                         <label class="sign" for="des">Description</label>
                     </td>
                     <td>
-                        <output type="text" id="des" class="edit"></output>
-                    
+                        <input type="text" id="des" class="edit" text="Keyboard buttons are unfunctional">
+
                 </tr>
-                
+
         </div>
 
         </table>
         <div class="first">
             <a href="userpage.html">
-                <button class="first">Arrove
+                <button class="first">Update
                 </button>
             </a>
             <a href="userpage.html">
-                <button class="first">Reject
+                <button class="first">Cancel
                 </button>
             </a>
-            <a href="userpage.html">
-                    <button class="first">Resolve
-                    </button>
-                </a>
         </div>
     </body>
 </center>

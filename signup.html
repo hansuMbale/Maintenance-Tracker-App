@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <title>Signup</title>
 </head>
 <center>
@@ -24,7 +24,7 @@
                         <label class="sign" for="email">email</label>
                     </td>
                     <td>
-                        <input type="text" id="email"class="sign">
+                        <input type="text" id="email" class="sign">
                     </td>
                 </tr>
                 <tr>
@@ -40,7 +40,15 @@
                         <label class="sign" for="dpt">Department</label>
                     </td>
                     <td>
-                        <input type="text" id="dpt" class="sign">
+                        <input list="dpt" class="sign" >
+
+                        <datalist id="dpt">
+                            <option value="HR Coordinator">
+                                <option value="Operations Lead">
+                                    <option value="Senior Software Developer">
+                                        <option value="Technical Program Manager">
+                                            <option value="Technical Team Lead">
+                        </datalist> 
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +86,7 @@
                 <button class="first">Signup
                 </button>
             </a>
-            <a href="first.html">
+            <a href="firstScreen.html">
                 <button class="first">Cancel
                 </button>
             </a>
