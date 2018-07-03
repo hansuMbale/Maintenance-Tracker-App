@@ -5,6 +5,9 @@ Maintenance Tracker App is an applicication built to help users send repair or m
  * Code Editor
  
  * Browser
+ * Pivotal Account
+ * github
+ 
 
 # Feautures:
 * Login 
@@ -15,10 +18,15 @@ Maintenance Tracker App is an applicication built to help users send repair or m
 * admin view page
 * filter requests
 * Approve, reject and resolve a request
+
 # Built with
 * HTML
 * CSS
 * Javascript
+* Flask
+* Postman
+* Git
+
 # Aurthors
 [Nazirini Siraji](https://github.com/hansuMbale/Maintenance-Tracker-App)
 # Acknowledgement:
