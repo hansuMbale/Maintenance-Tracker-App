@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
     <title>Signup</title>
 </head>
 <center>
 
     <body>
-        <h1>Fill in the details</h1>
+        <h1>SIGN UP</h1>
         <div class="sign">
             <table class="sign">
                 <tr>
@@ -21,7 +22,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="email">Email</label>
+                        <label class="sign" for="email">email</label>
                     </td>
                     <td>
                         <input type="text" id="email" class="sign">
@@ -40,39 +41,66 @@
                         <label class="sign" for="dpt">Department</label>
                     </td>
                     <td>
-                        <input type="text" id="dpt" class="sign">
+                        <input list="dpt" class="sign">
+
+                        <datalist id="dpt">
+                            <option value="HR Coordinator">
+                                <option value="Operations Lead">
+                                    <option value="Senior Software Developer">
+                                        <option value="Technical Program Manager">
+                                            <option value="Technical Team Lead">
+                        </datalist>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="comp">Computer ID</label>
+                        <label class="sign" for="username">Username</label>
                     </td>
                     <td>
-                        <input type="text" id="comp" class="sign">
+                        <input type="text" id="username" class="sign">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="des">Description</label>
+                        <label class="sign" for="psd">Password</label>
                     </td>
                     <td>
-                        <textarea type="text" id="des" class="edit"></textarea>
-                    
+                        <input type="text" id="psd" class="sign">
+                    </td>
                 </tr>
-                
+                <tr>
+                    <td>
+                        <label class="sign" for="psdC">Confirm</label>
+                    </td>
+                    <td>
+                        <input type="text" id="psdC" class="sign">
+                    </td>
+                </tr>
         </div>
 
         </table>
+
+
+
         <div class="first">
-            <a href="userpage.html">
-                <button class="first">Submit
+            <a href="login.html">
+                <button class="first">Signup
                 </button>
             </a>
-            <a href="userpage.html">
+            <a href="firstScreen.html">
                 <button class="first">Cancel
                 </button>
             </a>
         </div>
+        </div>
+        <footer>
+            <div class="page-footer">
+
+                <h1 align="center">copyright@maintenancetrackapp2018</h1>
+
+
+            </div>
+        </footer>
     </body>
 </center>
 

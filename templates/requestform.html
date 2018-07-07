@@ -2,13 +2,21 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
     <title>Signup</title>
 </head>
 <center>
+        <div class="topnav">
+                <a href="user-edit-form.html">Edit</a>
+                <a href="userpage.html">Home</a>
+                <a class="active" href="requestform.html">Request</a>
+                <a href="login.html">Log out</a>
+        
+            </div>
 
     <body>
-        <h1>SIGN UP</h1>
+        <h1>Fill in the details</h1>
         <div class="sign">
             <table class="sign">
                 <tr>
@@ -21,10 +29,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="email">email</label>
+                        <label class="sign" for="email">Email</label>
                     </td>
                     <td>
-                        <input type="text" id="email"class="sign">
+                        <input type="text" id="email" class="sign">
                     </td>
                 </tr>
                 <tr>
@@ -45,44 +53,43 @@
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="username">Username</label>
+                        <label class="sign" for="comp">Computer ID</label>
                     </td>
                     <td>
-                        <input type="text" id="username" class="sign">
+                        <input type="text" id="comp" class="sign">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="psd">Password</label>
+                        <label class="sign" for="des">Description</label>
                     </td>
                     <td>
-                        <input type="text" id="psd" class="sign">
-                    </td>
+                        <textarea type="text" id="des" class="edit"></textarea>
+
                 </tr>
-                <tr>
-                    <td>
-                        <label class="sign" for="psdC">Confirm</label>
-                    </td>
-                    <td>
-                        <input type="text" id="psdC" class="sign">
-                    </td>
-                </tr>
+
         </div>
 
         </table>
-
-
-
         <div class="first">
-            <a href="login.html">
-                <button class="first">Signup
+            <a href="userpage.html">
+                <button class="first">Submit
                 </button>
             </a>
-            <a href="firstscreen.html">
+            <a href="userpage.html">
                 <button class="first">Cancel
                 </button>
             </a>
         </div>
+        </div>
+        <footer>
+            <div class="page-footer">
+
+                <h1 align="center">copyright@maintenancetrackapp2018</h1>
+
+
+            </div>
+        </footer>
     </body>
 </center>
 

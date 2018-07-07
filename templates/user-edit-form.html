@@ -2,29 +2,37 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
     <title>Signup</title>
 </head>
 <center>
+    <div class="topnav">
+        <a href="user-edit-form.html">Edit</a>
+        <a href="userpage.html">Home</a>
+        <a href="requestform.html">Request</a>
+        <a href="login.html">Log out</a>
+
+    </div>
 
     <body>
         <h1>View your request</h1>
         <div class="sign">
             <table class="sign">
-                    <tr>
-                            <td>
-                                <label class="sign" for="status">Status</label>
-                            </td>
-                            <td>
-                                <output type="text" id="status" class="sign">Resolved
-                            </td>
-                        </tr>
+                <tr>
+                    <td>
+                        <label class="sign" for="status">Status</label>
+                    </td>
+                    <td>
+                        <input type="text" id="status" class="sign" text="Resolved">
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <label class="sign" for="name">Full Name</label>
                     </td>
                     <td>
-                        <output type="text" id="name" class="sign">Nazirini Siraji</output>
+                        <input type="text" id="name" class="sign" text="Nazirini Siraji">
                     </td>
                 </tr>
                 <tr>
@@ -32,7 +40,7 @@
                         <label class="sign" for="email">Email</label>
                     </td>
                     <td>
-                        <output type="text" id="email" class="sign">nazirinisiraji@gmail.com</output>
+                        <input type="text" id="email" class="sign" text="nazirinisiraji@gmail.com">
                     </td>
                 </tr>
                 <tr>
@@ -40,7 +48,7 @@
                         <label class="sign" for="phn">Phone</label>
                     </td>
                     <td>
-                        <output type="text" id="phn" class="sign">0704747184</output>
+                        <input type="text" id="phn" class="sign" text="0704747184">
                     </td>
                 </tr>
                 <tr>
@@ -48,7 +56,7 @@
                         <label class="sign" for="dpt">Department</label>
                     </td>
                     <td>
-                        <output type="text" id="dpt" class="sign">Humaon Resource</output>
+                        <input type="text" id="dpt" class="sign" text="Humaon Resource">
                     </td>
                 </tr>
                 <tr>
@@ -56,7 +64,7 @@
                         <label class="sign" for="comp">Computer ID</label>
                     </td>
                     <td>
-                        <output type="text" id="comp" class="sign">AA5647</output>
+                        <input type="text" id="comp" class="sign" text="AA5647">
                     </td>
                 </tr>
                 <tr>
@@ -64,10 +72,10 @@
                         <label class="sign" for="des">Description</label>
                     </td>
                     <td>
-                        <output type="text" id="des" class="edit">Keyboard buttons are unfunctional</output>
-                    
+                        <textarea type="text" id="des" class="edit"></textarea>
+
                 </tr>
-                
+
         </div>
 
         </table>
@@ -81,6 +89,15 @@
                 </button>
             </a>
         </div>
+        </div>
+        <footer>
+            <div class="page-footer">
+
+                <h1 align="center">copyright@maintenancetrackapp2018</h1>
+
+
+            </div>
+        </footer>
     </body>
 </center>
 
