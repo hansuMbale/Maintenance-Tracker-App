@@ -23,8 +23,6 @@ Maintenance Tracker App is an applicication built to help users send repair or m
 * HTML
 * CSS
 * Javascript
-* Flask
-* Postman
 * Git
 
 # Aurthors
