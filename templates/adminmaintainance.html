@@ -2,13 +2,19 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
     <title>Signup</title>
 </head>
 <center>
+    <div class="topnav">
+        <a class="active" href="adminmaintainance.html">View Request</a>
+        <a href="adminpage.html">All requests</a>
+        <a href="login.html">Log out</a>
+
+    </div>
 
     <body>
-        <h1>SIGN UP</h1>
+        <h1>Request entered</h1>
         <div class="sign">
             <table class="sign">
                 <tr>
@@ -21,7 +27,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label class="sign" for="email">email</label>
+                        <label class="sign" for="email">Email</label>
                     </td>
                     <td>
                         <input type="text" id="email" class="sign">
@@ -40,57 +46,52 @@
                         <label class="sign" for="dpt">Department</label>
                     </td>
                     <td>
-                        <input list="dpt" class="sign" >
+                        <input type="text" id="dpt" class="sign">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="sign" for="comp">Computer ID</label>
+                    </td>
+                    <td>
+                        <input type="text" id="comp" class="sign">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="sign" for="des">Description</label>
+                    </td>
+                    <td>
+                        <input type="text" id="des" class="sign">
 
-                        <datalist id="dpt">
-                            <option value="HR Coordinator">
-                                <option value="Operations Lead">
-                                    <option value="Senior Software Developer">
-                                        <option value="Technical Program Manager">
-                                            <option value="Technical Team Lead">
-                        </datalist> 
-                    </td>
                 </tr>
-                <tr>
-                    <td>
-                        <label class="sign" for="username">Username</label>
-                    </td>
-                    <td>
-                        <input type="text" id="username" class="sign">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label class="sign" for="psd">Password</label>
-                    </td>
-                    <td>
-                        <input type="text" id="psd" class="sign">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label class="sign" for="psdC">Confirm</label>
-                    </td>
-                    <td>
-                        <input type="text" id="psdC" class="sign">
-                    </td>
-                </tr>
+
         </div>
 
         </table>
-
-
-
         <div class="first">
-            <a href="login.html">
-                <button class="first">Signup
+            <a href="adminpage.html">
+                <button class="first">Approve
                 </button>
             </a>
-            <a href="firstScreen.html">
-                <button class="first">Cancel
+            <a href="adminpage.html">
+                <button class="first">Reject
+                </button>
+            </a>
+            <a href="adminpage.html">
+                <button class="first">Resolve
                 </button>
             </a>
         </div>
+        </div>
+        <footer>
+            <div class="page-footer">
+
+                <h1 align="center">copyright@maintenancetrackapp2018</h1>
+
+
+            </div>
+        </footer>
     </body>
 </center>
 

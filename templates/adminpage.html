@@ -1,13 +1,18 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <script type ="text/javascript" src="javafile.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 
-</head> 
+    <script type="text/javascript" src="../javascript/javafile.js"></script>
+
+</head>
 
 <body>
-    <center>
+    <center><div class="topnav">
+            <a href="adminmaintainance.html">View Request</a>
+            <a class="active" href="adminpage.html">All requests</a>
+            <a href="login.html">Log out</a>
+        </div><br>
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for requests...">
 
         <table id="myTable">
@@ -66,10 +71,16 @@
                     <input type="checkbox" checked>
                 </td>
             </tr>
-
-
-
         </table>
+        </div>
+        <footer>
+            <div class="page-footer">
+
+                <h1 align="center">copyright@maintenancetrackapp2018</h1>
+
+
+            </div>
+        </footer>
 
     </center>
 </body>
